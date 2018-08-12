@@ -102,3 +102,22 @@
     font-size: 1.5em;
     top: -0.05em !important;
 }
+
+.card-expand-button {
+	cursor: pointer;
+	max-width: 2em;
+	margin: 1em auto 0 auto;
+}
+
+.simple-civics-card-reveal {
+	/*overflow-y: hidden !important;*/
+	color: black;
+	background-color: #efefef !important;
+}
+
+.simple-civics-card {
+    background-color: #006600;
+    color: white;
+    min-width: 225px;
+    max-width: 425px;
+}
