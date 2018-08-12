@@ -1,0 +1,46 @@
+/*.parallax img {
+	@media #{$medium-and-up} {
+		width: 100%;
+	}
+}*/
+
+.parallax img {
+    @media #{$small-and-down} { max-width: 200%; }
+    @media #{$medium-and-up} { width: 100%; }
+}
+
+.marketing-parallax-title {
+	margin-bottom: 0;
+	margin-left: 0.1em;
+	color: #333;
+	font-family: 'Yantramanav', sans-serif;
+}
+
+.marketing-parallax-subtitle {
+	margin-left: 0.5em;
+}
+.marketing-parallax-subtitle span {
+	font-size: 2em;
+}
+
+.parallax-marketing-overlay {
+	width: 90%;
+}
+
+.parallax-marketing-text-container {
+	background: rgba(255, 255, 255, 0.5);
+	width: 33%;
+	color: #232323;
+	padding: 0 0 0.5em 0.5em;
+	min-width: 400px;
+}
+.parallax-marketing-text-container p {
+	margin-left: 0.5em;
+    font-size: 1.25em;
+    color: #000066;
+    font-weight: bold;
+}
+.parallax-link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
