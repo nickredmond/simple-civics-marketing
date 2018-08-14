@@ -124,6 +124,13 @@
 		display: none;
 	}
 
+	.desktop-description {
+		display: none;
+	}
+	.mobile-description {
+		display: block !important
+	}
+
 	#marketing-sell-speech {
 	    text-align: center;
         margin-left: auto;
@@ -135,7 +142,17 @@
 	}
 }
 
+@media only screen and (max-width: 980px) {
+	.row .col.push-s1 {
+		left: 0 !important;
+	}
+}
+
 .mobile-header-area {
+	display: none;
+}
+
+.mobile-description {
 	display: none;
 }
 
@@ -178,7 +195,7 @@
     max-width: 425px;
 }
 
-#mobile-screenshot {
+.mobile-screenshot {
 	max-width: 275px;
 	width: 100%;
 }
@@ -215,8 +232,18 @@
 	margin-left: 1em;
 }
 
+.learn-more-step {
+	padding: 1.25em 0;
+}
+
 #learn-more-step-1 {
 	background-color: #444;
     color: #ddd;
-    padding: 1.25em 0;
+}
+
+.right-aligned-text-container {
+	text-align: right;
+}
+.right-aligned-sell-speech {
+	float: right;
 }
