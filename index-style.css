@@ -210,3 +210,13 @@
 .marketing-text-container {
 	min-width: 350px;
 }
+
+.simple-civics-page-header {
+	margin-left: 1em;
+}
+
+#learn-more-step-1 {
+	background-color: #444;
+    color: #ddd;
+    padding: 1.25em 0;
+}
