@@ -21,28 +21,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 	<body>
-		<div id="home-view">
-			<nav>
-				<div id="simple-civics-nav" class="nav-wrapper">
-					<div id="site-logo-area">
-						<a href="#" class="brand-logo">
-							<img id="site-logo-image" src="images/logo.png" />
-						</a>
-						<a href="#"><div id="brand-name" class="row">simple<span>civics</span></div></a>
-					</div>
-					<div id="simple-civics-slogan">
-							<span id="slogan-separator">|</span><span>Civic engagement made easy.</span>
-						</div>
+		<nav>
+			<div id="simple-civics-nav" class="nav-wrapper">
+				<div id="site-logo-area">
+					<a href="#" class="brand-logo" onclick="navigate('home')">
+						<img id="site-logo-image" src="images/logo.png" />
+					</a>
+					<a href="#" onclick="navigate('home')">
+						<div id="brand-name" class="row">simple<span>civics</span></div>
+					</a>
 				</div>
-			</nav>
+				<div id="simple-civics-slogan">
+						<span id="slogan-separator">|</span><span>Civic engagement made easy.</span>
+					</div>
+			</div>
+		</nav>
 
+		<div id="home-page" class="marketing-page">
 			<div class="parallax-container">
 				<div class="container parallax-marketing-overlay">
 					<div class="row">
 						<div class="col-md-4 parallax-marketing-text-container">
 							<h2 class="marketing-parallax-title">Taking action</h2>
 							<div class="marketing-parallax-subtitle"><span>has never been easier.</span></div>
-							<p onclick="navigate('home', 'learn-more')" class="parallax-link">See how Simple Civics can help unify your community.</p>
+							<p onclick="navigate('learn-more')" class="parallax-link">See how Simple Civics can help unify your community.</p>
 						</div>
 						<div class="col-md-8"></div>
 					</div>
@@ -145,14 +147,18 @@
 
 			<div id="marketing-visual-container container">
 				<div class="row marketing-row-light">
-					<div class="col s5">
+					<div class="col s7 mobile-header-area">
+						<h4 class="header marketing-visual-header">Technology-centered.</h4>
+						<h4 class="header marketing-visual-header">Community-driven.</h4>
+					</div>
+					<div class="mobile-screenshot-container col s5">
 						<div class="image-float-right-container">
 							<img id="mobile-screenshot" src="images/mobile-home-page.png" />
 						</div>
 					</div>
-					<div class="col s7">
-						<h4 class="header marketing-visual-header">Technology-centered.</h4>
-						<h4 class="header marketing-visual-header">Community-driven.</h4>
+					<div class="col s6 marketing-text-container">
+						<h4 class="header marketing-visual-header desktop-header">Technology-centered.</h4>
+						<h4 class="header marketing-visual-header desktop-header">Community-driven.</h4>
 						<p id="marketing-sell-speech" class="flow-text">Information needed to make a difference, in the palm of your hand. What's stopping you from being an active part of your community? Download Simple Civics today and join those who are already inspiring the change we all wish to see.</p>
 					</div>
 				</div>
@@ -163,8 +169,8 @@
 			</div>
 		</div>
 
-		<div id="learn-more-view" style="display: none;">
-			[under construction as of Aug 12, 2018]
+		<div id="learn-more-page" class="marketing-page" style="display: none;">
+			<h3 class="header">How does it work?</h3>
 		</div>
 
 		<script src="scripts/jquery.min.js"></script>

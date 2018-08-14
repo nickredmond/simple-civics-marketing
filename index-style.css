@@ -83,6 +83,62 @@
 	}
 }
 
+/** collapse logo area on smaller screens so menu fits */
+@media only screen and (max-width: 500px) {
+	#simple-civics-slogan span {
+	    top: 1em !important;
+    	left: -8.5em !important;
+	}
+
+	#slogan-separator {
+		display: none;
+	}
+
+	#site-logo-area a {
+		top: -0.5em;
+	}
+
+	#site-logo-image {
+		margin-top: 0.8em;
+	}
+}
+
+/** change mobile view area to be more clearly visible */
+@media only screen and (max-width: 619px) {
+	.mobile-screenshot-container {
+	    width: 100% !important;
+    	text-align: center;
+	}
+
+	.image-float-right-container {
+		float: none !important;
+	}
+
+	.mobile-header-area {
+	    text-align: center;
+    	width: 100% !important;
+    	display: block !important;
+	}
+
+	.desktop-header {
+		display: none;
+	}
+
+	#marketing-sell-speech {
+	    text-align: center;
+        margin-left: auto;
+    	margin-right: auto;
+	}
+
+	.marketing-text-container {
+	    width: 100% !important;
+	}
+}
+
+.mobile-header-area {
+	display: none;
+}
+
 #simple-civics-slogan {
     position: absolute;
     top: 0;
@@ -105,7 +161,7 @@
 
 .card-expand-button {
 	cursor: pointer;
-	max-width: 2em;
+	max-width: 3em;
 	margin: 1em auto 0 auto;
 }
 
@@ -149,4 +205,8 @@
     font-style: italic;
     color: #555;
     margin-bottom: 1em;
+}
+
+.marketing-text-container {
+	min-width: 350px;
 }
