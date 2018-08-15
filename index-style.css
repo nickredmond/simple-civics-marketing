@@ -201,7 +201,7 @@
 }
 
 .marketing-row-light {
-	background-color: #ccffcc;
+	background-color: #aaffaa;
     padding: 2em 0;
 }
 
@@ -239,6 +239,11 @@
 #learn-more-step-1 {
 	background-color: #444;
     color: #ddd;
+    margin-bottom: 0 !important;
+}
+
+#learn-more-step-2 {
+    background-color: #aaffaa;
 }
 
 .right-aligned-text-container {
@@ -246,4 +251,16 @@
 }
 .right-aligned-sell-speech {
 	float: right;
+}
+
+.small-learn-more-step {
+	text-align: center;
+}
+
+.center-aligned-small-step {
+	margin: 0 auto;
+}
+
+#learn-more-page-header {
+	color: #444;
 }
